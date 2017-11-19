@@ -186,7 +186,7 @@ ZZ = [1,1,0,0,1,1,0,0,0,
 # Black devil
 # -------------
 
-# The black devil is made up of six polycubes: AA, BB, LL, TT, GAB, ZZB, four of which are share with the Soma cube. Therefore it suffies to describe GAB and ZZB only.
+# The black devil is made up of six polycubes: AA, BB, LL, TTB, GAB, ZZB, four of which are share with the Soma cube. Therefore it suffies to describe GAB, TTB and ZZB only.
 
 # In[10]:
 
@@ -194,9 +194,18 @@ GAB = [1,0,0,1,0,0,1,1,0,
        0,0,0,0,0,0,0,1,0,
        0,0,0,0,0,0,0,0,0]
 
+TTB = [1,0,0,1,1,0,1,0,0,
+       1,0,0,0,0,0,0,0,0,
+       0,0,0,0,0,0,0,0,0]
+
 ZZB = [0,0,0,1,0,0,0,0,0,
        1,1,0,1,0,0,0,0,0,
        0,1,0,0,0,0,0,0,0]
+
+
+# In[ ]:
+
+
 
 
 # Red devil
